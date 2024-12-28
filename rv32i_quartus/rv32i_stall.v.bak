@@ -1,0 +1,9 @@
+module rv32i_stall(FD_rs1, FD_rs2, DE_rd, EM_rd, MW_rd, FD_OP, DE_OP, EM_OP, MW_OP, stall, forward);
+input[4:0] FD_rs1, FD_rs2, DE_rd, EM_rd, MW_rd;
+input[6:0] FD_OP, DE_OP, EM_OP, MW_OP;
+output reg stall;
+output[1:0] forward;
+
+always @()
+
+endmodule

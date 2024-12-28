@@ -1,0 +1,28 @@
+module rv32i_imem(clkA, addrA, dataOutA, clkB, weB, dataInB, addrB, dataOutB);
+parameter dwidth = 32;
+parameter awidth = 2;
+
+input clkA, clkB, weB;
+input [dwidth-1:0] dataInB;
+input [awidth-1:0] addrA, addrB;
+output reg [dwidth-1:0] dataOutA, dataOutB;
+
+reg [dwidth-1:0] mem[2**awidth-1:0];
+
+always @(posedge clkA)
+begin
+	dataOutA <= mem[addrA];
+end
+
+always @(posedge clkB)
+begin
+	if(weB) mem[addrB] <= dataInB;
+	dataOutB <= mem[addrB];
+end
+
+initial
+begin
+	$readmemh("test1.hex", mem);
+end
+
+endmodule

@@ -1,0 +1,204 @@
+D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32bit4ch.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32bit4ch.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_mux32bit4ch
+
+Top level modules:
+	rv32i_mux32bit4ch
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram4KB.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram4KB.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_dram4KB
+
+Top level modules:
+	rv32i_dram4KB
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dataSel.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dataSel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_dataSel
+
+Top level modules:
+	rv32i_dataSel
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_regFile.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_regFile.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_regFile
+
+Top level modules:
+	rv32i_regFile
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_pcSel.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_pcSel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_pcSel
+
+Top level modules:
+	rv32i_pcSel
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_cpu.v {1 {vlog -work work {D:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_cpu.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_cpu
+
+Top level modules:
+	rv32i_cpu
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_meminfo_display.v {1 {vlog -work work {D:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_meminfo_display.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_meminfo_display
+
+Top level modules:
+	rv32i_meminfo_display
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_jAddrCalc.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_jAddrCalc.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_jAddrCalc
+
+Top level modules:
+	rv32i_jAddrCalc
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_irom8k_ver2.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_irom8k_ver2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_irom8k_ver2
+
+Top level modules:
+	rv32i_irom8k_ver2
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_nopInsert.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_nopInsert.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_nopInsert
+
+Top level modules:
+	rv32i_nopInsert
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_brAddrCalc.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_brAddrCalc.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_brAddrCalc
+
+Top level modules:
+	rv32i_brAddrCalc
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramSel.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramSel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_ramSel
+
+Top level modules:
+	rv32i_ramSel
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramWriteControl.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramWriteControl.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_ramWriteControl
+
+Top level modules:
+	rv32i_ramWriteControl
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_adder32bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_adder32bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_adder32bit
+
+Top level modules:
+	rv32i_adder32bit
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/dff2bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/dff2bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dff2bit
+
+Top level modules:
+	dff2bit
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff6bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff6bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_dff6bit
+
+Top level modules:
+	rv32i_dff6bit
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/dff4bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/dff4bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dff4bit
+
+Top level modules:
+	dff4bit
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_mux32
+
+Top level modules:
+	rv32i_mux32
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/dff32bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/dff32bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dff32bit
+
+Top level modules:
+	dff32bit
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_stall.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_stall.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_stall
+
+Top level modules:
+	rv32i_stall
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff1bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff1bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_dff1bit
+
+Top level modules:
+	rv32i_dff1bit
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/dff16bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/dff16bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dff16bit
+
+Top level modules:
+	dff16bit
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_control.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_control.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_control
+
+Top level modules:
+	rv32i_control
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ALU.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_ALU
+
+Top level modules:
+	rv32i_ALU
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/dff8bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/dff8bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dff8bit
+
+Top level modules:
+	dff8bit
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_forwarding.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_forwarding.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_forwarding
+
+Top level modules:
+	rv32i_forwarding
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram2KB.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram2KB.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_dram2KB
+
+Top level modules:
+	rv32i_dram2KB
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/dff1bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/dff1bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dff1bit
+
+Top level modules:
+	dff1bit
+
+} {} {}} D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff32bit.v {1 {vlog -work work D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff32bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rv32i_dff32bit
+
+Top level modules:
+	rv32i_dff32bit
+
+} {} {}}

@@ -1,0 +1,219 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 18:58:19  July 02, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		FPGA1_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE15E22C7
+set_global_assignment -name TOP_LEVEL_ENTITY RV32I
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:58:19  JULY 02, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "23.1std.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_location_assignment PIN_52 -to clk
+set_location_assignment PIN_7 -to rst
+set_location_assignment PIN_134 -to lcd_data[0]
+set_location_assignment PIN_135 -to lcd_data[1]
+set_location_assignment PIN_136 -to lcd_data[2]
+set_location_assignment PIN_137 -to lcd_data[3]
+set_location_assignment PIN_141 -to lcd_data[4]
+set_location_assignment PIN_142 -to lcd_data[5]
+set_location_assignment PIN_143 -to lcd_data[6]
+set_location_assignment PIN_144 -to lcd_data[7]
+set_location_assignment PIN_51 -to lcd_rd
+set_location_assignment PIN_50 -to lcd_wr
+set_location_assignment PIN_49 -to lcd_cd
+set_location_assignment PIN_46 -to lcd_cs
+set_location_assignment PIN_44 -to lcd_rst
+set_location_assignment PIN_42 -to ESP_RX
+set_location_assignment PIN_43 -to ESP_TX
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name STRATIX_CONFIGURATION_DEVICE EPCQ16
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_location_assignment PIN_10 -to led[0]
+set_global_assignment -name CYCLONEIII_CONFIGURATION_DEVICE EPCQ16
+set_global_assignment -name HEX_FILE rv32i_test.hex
+set_global_assignment -name VERILOG_FILE dff1bit.v
+set_global_assignment -name VERILOG_FILE dff2bit.v
+set_global_assignment -name VERILOG_FILE dff3bit.v
+set_global_assignment -name VERILOG_FILE dff4bit.v
+set_global_assignment -name VERILOG_FILE dff8bit.v
+set_global_assignment -name VERILOG_FILE dff16bit.v
+set_global_assignment -name HEX_FILE prog3.hex
+set_global_assignment -name HEX_FILE prog1.hex
+set_global_assignment -name BDF_FILE RV32I.bdf
+set_global_assignment -name VERILOG_FILE rv32i_ALU.v
+set_global_assignment -name VECTOR_WAVEFORM_FILE rv32i_ALU_sim.vwf
+set_global_assignment -name VERILOG_FILE rv32i_ramSel.v
+set_global_assignment -name QIP_FILE lpm_constant12.qip
+set_global_assignment -name QIP_FILE lpm_constant12b.qip
+set_global_assignment -name QIP_FILE lpm_constant12c.qip
+set_global_assignment -name QIP_FILE lpm_constant12d.qip
+set_global_assignment -name BDF_FILE rv32i_ramSel_tester.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE rv32i_ramSel_sim1.vwf
+set_global_assignment -name QIP_FILE rv32i_irom8k.qip
+set_global_assignment -name VERILOG_FILE dff32bit.v
+set_global_assignment -name VERILOG_FILE rv32i_regFile.v
+set_global_assignment -name QIP_FILE lpm_constant0.qip
+set_global_assignment -name QIP_FILE lpm_constant1.qip
+set_global_assignment -name BDF_FILE rv32i_regFile_tester.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE rv32i_regFile_sim1.vwf
+set_global_assignment -name VERILOG_FILE rv32i_adder32bit.v
+set_global_assignment -name QIP_FILE lpm_constant2.qip
+set_global_assignment -name VERILOG_FILE rv32i_pcSel.v
+set_global_assignment -name VERILOG_FILE rv32i_control.v
+set_global_assignment -name BDF_FILE rv32i_control_tester.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE rv32i_control_sim1.vwf
+set_global_assignment -name VERILOG_FILE rv32i_dataSel.v
+set_global_assignment -name QIP_FILE lpm_constant3.qip
+set_global_assignment -name QIP_FILE lpm_constant4.qip
+set_global_assignment -name QIP_FILE lpm_constant5.qip
+set_global_assignment -name QIP_FILE lpm_constant6.qip
+set_global_assignment -name BDF_FILE rv32i_dataSel_tester.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE rv32i_dataSel_sim1.vwf
+set_global_assignment -name VERILOG_FILE rv32i_jAddrCalc.v
+set_global_assignment -name QIP_FILE lpm_constant7.qip
+set_global_assignment -name QIP_FILE lpm_constant8.qip
+set_global_assignment -name BDF_FILE rv32i_jAddrCalc_tester.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE rv32i_jAddrCalc_sim1.vwf
+set_global_assignment -name VERILOG_FILE rv32i_mux32.v
+set_global_assignment -name QIP_FILE rv32i_ram4K.qip
+set_global_assignment -name QIP_FILE rv32i_ram2K.qip
+set_global_assignment -name QIP_FILE rv32i_ram1K.qip
+set_global_assignment -name VERILOG_FILE rv32i_ramWriteControl.v
+set_global_assignment -name VERILOG_FILE rv32i_forwarding.v
+set_global_assignment -name VERILOG_FILE rv32i_mux32bit4ch.v
+set_global_assignment -name VERILOG_FILE rv32i_stall.v
+set_global_assignment -name VERILOG_FILE rv32i_brAddrCalc.v
+set_global_assignment -name HEX_FILE rv32i_test1.hex
+set_global_assignment -name VECTOR_WAVEFORM_FILE RV32I_sim1.vwf
+set_global_assignment -name VERILOG_FILE rv32i_dff1bit.v
+set_global_assignment -name VERILOG_FILE rv32i_dff6bit.v
+set_global_assignment -name VERILOG_FILE rv32i_dff32bit.v
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE rv32i_nopInsert.v
+set_global_assignment -name QIP_FILE lpm_constant9.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE RV32I_sim2vwf.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/fpga_16bit_cpu_project/fpga2_code/rv32i_v1/RV32I_sim2vwf.vwf"
+set_global_assignment -name VERILOG_FILE rv32i_lcdDriver.v
+set_global_assignment -name VERILOG_FILE rv32i_bitmap16by12.v
+set_global_assignment -name VERILOG_FILE rv32i_debug.v
+set_global_assignment -name QIP_FILE lpm_constant10.qip
+set_location_assignment PIN_32 -to key[0]
+set_location_assignment PIN_33 -to key[1]
+set_location_assignment PIN_39 -to key[2]
+set_global_assignment -name VERILOG_FILE led_driver.v
+set_global_assignment -name BDF_FILE led_tester.bdf
+set_global_assignment -name VERILOG_FILE smallFSM.v
+set_global_assignment -name BDF_FILE DRAM_tester.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DRAM_tester_sim.vwf
+set_global_assignment -name VERILOG_FILE rv32i_mmu.v
+set_location_assignment PIN_58 -to dram_dq[0]
+set_location_assignment PIN_59 -to dram_dq[1]
+set_location_assignment PIN_60 -to dram_dq[2]
+set_location_assignment PIN_61 -to dram_dq[3]
+set_location_assignment PIN_64 -to dram_dq[4]
+set_location_assignment PIN_65 -to dram_dq[5]
+set_location_assignment PIN_66 -to dram_dq[6]
+set_location_assignment PIN_67 -to dram_dq[7]
+set_location_assignment PIN_68 -to dram_dq[15]
+set_location_assignment PIN_69 -to dram_dq[14]
+set_location_assignment PIN_71 -to dram_dq[13]
+set_location_assignment PIN_72 -to dram_dq[12]
+set_location_assignment PIN_76 -to dram_dq[11]
+set_location_assignment PIN_77 -to dram_dq[10]
+set_location_assignment PIN_99 -to dram_addr[9]
+set_location_assignment PIN_80 -to dram_dq[9]
+set_location_assignment PIN_83 -to dram_dq[8]
+set_location_assignment PIN_85 -to dram_udqm
+set_location_assignment PIN_86 -to dram_cke
+set_location_assignment PIN_87 -to dram_addr[12]
+set_location_assignment PIN_98 -to dram_addr[11]
+set_location_assignment PIN_100 -to dram_addr[8]
+set_location_assignment PIN_101 -to dram_addr[7]
+set_location_assignment PIN_103 -to dram_addr[6]
+set_location_assignment PIN_104 -to dram_addr[5]
+set_location_assignment PIN_105 -to dram_addr[4]
+set_location_assignment PIN_106 -to dram_addr[3]
+set_location_assignment PIN_110 -to dram_addr[2]
+set_location_assignment PIN_111 -to dram_addr[1]
+set_location_assignment PIN_112 -to dram_addr[0]
+set_location_assignment PIN_113 -to clk_out
+set_location_assignment PIN_114 -to dram_addr[10]
+set_location_assignment PIN_115 -to dram_bs[1]
+set_location_assignment PIN_119 -to dram_bs[0]
+set_location_assignment PIN_120 -to dram_cs_
+set_location_assignment PIN_121 -to dram_ras_
+set_location_assignment PIN_125 -to dram_cas_
+set_location_assignment PIN_132 -to dram_we_
+set_location_assignment PIN_133 -to dram_ldqm
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name VERILOG_FILE rv32i_mmu_ver2.v
+set_global_assignment -name BDF_FILE mmu_ver2_tester.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE mmu_ver2_sim.vwf
+set_global_assignment -name QIP_FILE const1.qip
+set_global_assignment -name QIP_FILE const2.qip
+set_global_assignment -name VERILOG_FILE rv32i_imem.v
+set_global_assignment -name VERILOG_FILE rv32i_ramEnabler.v
+set_global_assignment -name VERILOG_FILE rv32i_irom8k_ver2.v
+set_global_assignment -name VERILOG_FILE rv32i_irom8k_ver3.v
+set_global_assignment -name VERILOG_FILE rv32i_irom8k_ver4.v
+set_global_assignment -name QIP_FILE rom2p.qip
+set_global_assignment -name BDF_FILE romtest.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE romtest_sim1.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE rv32i_dram4KB.v
+set_global_assignment -name VERILOG_FILE rv32i_dram2KB.v
+set_global_assignment -name VERILOG_FILE rv32i_UART.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

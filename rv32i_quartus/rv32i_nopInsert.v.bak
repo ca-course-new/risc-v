@@ -1,0 +1,16 @@
+module rv32i_nopInsert(rst, clk, jal, jalr, br, br_ex, sel);
+input rst, clk, jal, jalr, br, br_ex;
+output reg sel;
+
+
+always @(posedge rst, posedge clk)
+begin
+	if(rst) sel<=0;
+	else
+	begin
+		if(jal||jalr||br||br_ex) sel<=1;
+		else sel<=0;
+	end
+end
+
+endmodule

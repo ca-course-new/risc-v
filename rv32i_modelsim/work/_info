@@ -1,0 +1,567 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\fpga_16bit_cpu_project\modelsim_test
+vdff16bit
+Z1 !s100 Ck2P0b>Nnnh0OZD^`U6[`1
+Z2 IPS=V6BTgLUL2h0Ihi3k;i0
+Z3 V9jn:4QJTU;Ih<kQ^2;P:F3
+Z4 dD:\fpga_16bit_cpu_project\rv32i_modelsim
+Z5 w1733169222
+Z6 8D:/fpga_16bit_cpu_project/rv32i_modelsim/dff16bit.v
+Z7 FD:/fpga_16bit_cpu_project/rv32i_modelsim/dff16bit.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/dff16bit.v|
+Z10 o-work work -O0
+Z11 !s108 1735142309.724000
+Z12 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/dff16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdff1bit
+Z13 !s100 fGV^@5WEjoN`Ied_J6oCb3
+Z14 IKmSI3:Dm<Okfz[EzHMj1e3
+Z15 VJTFK>09`M0HKO5cZ1KIX=1
+R4
+Z16 w1733169179
+Z17 8D:/fpga_16bit_cpu_project/rv32i_modelsim/dff1bit.v
+Z18 FD:/fpga_16bit_cpu_project/rv32i_modelsim/dff1bit.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/dff1bit.v|
+R10
+Z20 !s108 1735142309.457000
+Z21 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/dff1bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdff2bit
+Z22 !s100 FTYoZNNTjjU5NXUOB_A]g3
+Z23 I57:DFg]Yh>?LWZbaMbM?]0
+Z24 Vgk80UNOl0dd^keaIE6O8=3
+R4
+Z25 w1733169190
+Z26 8D:/fpga_16bit_cpu_project/rv32i_modelsim/dff2bit.v
+Z27 FD:/fpga_16bit_cpu_project/rv32i_modelsim/dff2bit.v
+L0 1
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/dff2bit.v|
+R10
+Z29 !s108 1735142309.536000
+Z30 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/dff2bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdff32bit
+Z31 !s100 _FK:If:TcGP9i0346nSEN2
+Z32 I@lZ`6FRbmThke8I2dQ17n1
+Z33 VziPdVk8oQDMRP?QPXj0W70
+R4
+Z34 w1713559664
+Z35 8D:/fpga_16bit_cpu_project/rv32i_modelsim/dff32bit.v
+Z36 FD:/fpga_16bit_cpu_project/rv32i_modelsim/dff32bit.v
+L0 1
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/dff32bit.v|
+R10
+Z38 !s108 1735142309.796000
+Z39 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/dff32bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdff4bit
+Z40 !s100 B?i^glcVUD0KSzd?P0e7a0
+Z41 I;bSVX`SW^6Ki[5m7:]fR91
+Z42 VN<LR=2K>8m^gk>4cjAK:33
+R4
+Z43 w1733169201
+Z44 8D:/fpga_16bit_cpu_project/rv32i_modelsim/dff4bit.v
+Z45 FD:/fpga_16bit_cpu_project/rv32i_modelsim/dff4bit.v
+L0 1
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/dff4bit.v|
+R10
+Z47 !s108 1735142309.598000
+Z48 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/dff4bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdff8bit
+Z49 !s100 9:i^i_oQQM^PYP7@7g2Z41
+Z50 I5P6>ImL78hf[aGG_gkeE[1
+Z51 V>L2O:Eeo_B920f6z6>IYc0
+R4
+Z52 w1733169212
+Z53 8D:/fpga_16bit_cpu_project/rv32i_modelsim/dff8bit.v
+Z54 FD:/fpga_16bit_cpu_project/rv32i_modelsim/dff8bit.v
+L0 1
+R8
+r1
+31
+Z55 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/dff8bit.v|
+R10
+Z56 !s108 1735142309.661000
+Z57 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/dff8bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_adder32bit
+Z58 !s100 N55^7nm?8zU`[41enIQ=P2
+Z59 IJkGlXIXlY=Kjb:MzEeK1D2
+Z60 VgzM^VJ<^z:k3mBW7cedgg0
+R4
+Z61 w1713580756
+Z62 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_adder32bit.v
+Z63 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_adder32bit.v
+L0 1
+R8
+r1
+31
+Z64 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_adder32bit.v|
+R10
+Z65 !s108 1735142309.852000
+Z66 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_adder32bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_ALU
+Z67 !s100 HgPhPDWz_H:1CDc]Qa2Pb3
+Z68 InWP]nB9D@OXCBWK;l[lHY0
+Z69 V[<8_6oh8zN9JQ64gPUb?02
+R4
+Z70 w1733281546
+Z71 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ALU.v
+Z72 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ALU.v
+L0 1
+R8
+r1
+31
+Z73 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ALU.v|
+R10
+Z74 nrv32i_@a@l@u
+Z75 !s108 1735142309.930000
+Z76 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ALU.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_brAddrCalc
+Z77 !s100 >2jZ161TAma]Vb9;[Jn0^0
+Z78 IDdY`nLL7RggT@Ogg=e`9N0
+Z79 VJA>YlkJ4@ib]kLG9VcT1H0
+R4
+Z80 w1714091112
+Z81 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_brAddrCalc.v
+Z82 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_brAddrCalc.v
+L0 1
+R8
+r1
+31
+Z83 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_brAddrCalc.v|
+R10
+Z84 nrv32i_br@addr@calc
+Z85 !s108 1735142309.997000
+Z86 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_brAddrCalc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_control
+Z87 !s100 DIlQ7JI>ZVJJVfHZ3kMI:2
+Z88 I41XOddHVUC?]L?c2nccg=2
+Z89 V4zONiQCVSEc@mK]O1>kRl0
+R4
+Z90 w1714275562
+Z91 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_control.v
+Z92 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_control.v
+L0 1
+R8
+r1
+31
+Z93 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_control.v|
+R10
+Z94 !s108 1735142310.072000
+Z95 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_control.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_cpu
+Z96 I[a`eJ]dPV`OhH@6;D_<M90
+Z97 Vf726eeo=[I8[e4C=4SKRb1
+R4
+Z98 w1734711413
+Z99 8D:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_cpu.v
+Z100 FD:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_cpu.v
+L0 9
+R8
+r1
+31
+R10
+!i10b 1
+Z101 !s100 S2V_mI`EFT25m13<BK:0m1
+!s85 0
+Z102 !s108 1735142311.274000
+Z103 !s107 D:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_cpu.v|
+Z104 !s90 -reportprogress|300|-work|work|D:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_cpu.v|
+!s101 -O0
+vrv32i_dataSel
+Z105 !s100 =O_Ql[Ko=i[L2O09jXQYW2
+Z106 IQle@[5]bS_AcWb^hOjmgI0
+Z107 VU;?9J0]jJIkRS@EON?SNd3
+R4
+Z108 w1733281878
+Z109 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dataSel.v
+Z110 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dataSel.v
+L0 1
+R8
+r1
+31
+Z111 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dataSel.v|
+R10
+Z112 nrv32i_data@sel
+Z113 !s108 1735142310.120000
+Z114 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dataSel.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_dff1bit
+Z115 !s100 6XF;RVT6hbRlf<:iZJlY;0
+Z116 I9OTb0mf[6HmdL^9gdSN^R3
+Z117 VjkOb=TL_kXdO?B9X3BzaZ3
+R4
+Z118 w1733169258
+Z119 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff1bit.v
+Z120 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff1bit.v
+L0 1
+R8
+r1
+31
+Z121 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff1bit.v|
+R10
+Z122 !s108 1735142310.184000
+Z123 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff1bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_dff32bit
+Z124 !s100 ^heC7Jg[ON8cAEdG6mUUD2
+Z125 I46z31BWo`czd[H1R^@TTR2
+Z126 Vz;D=ccn_ZMi>FO:c=;zXD3
+R4
+Z127 w1733169277
+Z128 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff32bit.v
+Z129 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff32bit.v
+L0 1
+R8
+r1
+31
+Z130 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff32bit.v|
+R10
+Z131 !s108 1735142310.310000
+Z132 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff32bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_dff6bit
+Z133 !s100 C7Mei9UgbF?1mgCL?R5SM1
+Z134 I=FHd@ZAMh[m<P8CnX;M`32
+Z135 VChe=9he6Sb^3W2n=j]3`<3
+R4
+Z136 w1733169266
+Z137 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff6bit.v
+Z138 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff6bit.v
+L0 1
+R8
+r1
+31
+Z139 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff6bit.v|
+R10
+Z140 !s108 1735142310.247000
+Z141 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dff6bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_dram2KB
+Z142 !s100 @C=>H1NHQCcYNo60Ch5WC3
+Z143 I]fBgS1[2Dbd:NA:_U6anZ0
+Z144 V3lYoo7W0RXFJbPY]hl[Tc3
+R4
+Z145 w1732981486
+Z146 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram2KB.v
+Z147 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram2KB.v
+L0 1
+R8
+r1
+31
+Z148 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram2KB.v|
+R10
+Z149 nrv32i_dram2@k@b
+Z150 !s108 1735142310.373000
+Z151 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram2KB.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_dram4KB
+Z152 !s100 gEKR@]0511FP2@mfoW3cW0
+Z153 I76gJ@mMJ`IHRGX:QlWi=Q1
+Z154 V[ilB[l34K9Iz0:7_aO^db2
+R4
+Z155 w1732913013
+Z156 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram4KB.v
+Z157 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram4KB.v
+L0 1
+R8
+r1
+31
+Z158 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram4KB.v|
+R10
+Z159 nrv32i_dram4@k@b
+Z160 !s108 1735142310.436000
+Z161 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_dram4KB.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_forwarding
+Z162 !s100 13V591WQK7X[zc^gdQ:Jh1
+Z163 IIQKP3;?HFMXA0HIVj9`Z_3
+Z164 VmDUbAjj[Tk;5bX7gZQ^8A3
+R4
+Z165 w1713968013
+Z166 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_forwarding.v
+Z167 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_forwarding.v
+L0 1
+R8
+r1
+31
+Z168 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_forwarding.v|
+R10
+Z169 !s108 1735142310.499000
+Z170 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_forwarding.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_irom8k_ver2
+Z171 !s100 8aH9@5=5o:j[Cbl`213d71
+Z172 IPTPZ=UNZ4a0ok;:1z>l`Z1
+Z173 VQAek3QlJhgBPg>Z^^VUfm0
+R4
+Z174 w1732858261
+Z175 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_irom8k_ver2.v
+Z176 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_irom8k_ver2.v
+L0 1
+R8
+r1
+31
+Z177 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_irom8k_ver2.v|
+R10
+Z178 !s108 1735142310.562000
+Z179 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_irom8k_ver2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_jAddrCalc
+Z180 !s100 9HiTSDE4Nh96g2ln]3NXJ1
+Z181 IgeiB^96<39OeIM@gV1aJB0
+Z182 V?Mh`O59TmN3QWG];YQdXC3
+R4
+Z183 w1713715149
+Z184 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_jAddrCalc.v
+Z185 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_jAddrCalc.v
+L0 1
+R8
+r1
+31
+Z186 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_jAddrCalc.v|
+R10
+Z187 nrv32i_j@addr@calc
+Z188 !s108 1735142310.624000
+Z189 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_jAddrCalc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_meminfo_display
+!i10b 1
+!s100 `5NHI_>JFTd:VXWen?eQ83
+IWP;:16d0WDWM^@095Sg=Q2
+Z190 VOhdJ6P[2ifPde2Wn[IU[M1
+R4
+Z191 w1733001853
+8D:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_meminfo_display.v
+FD:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_meminfo_display.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1735142311.384000
+!s107 D:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_meminfo_display.v|
+!s90 -reportprogress|300|-work|work|D:\fpga_16bit_cpu_project\rv32i_modelsim\rv32i_meminfo_display.v|
+!s101 -O0
+R10
+vrv32i_mux32
+Z192 !s100 zG>Y222439K1Q[kD?3:_R2
+Z193 I?4moBzd@h=a@Vgi]G9D;g2
+Z194 VdWlT9[ZZl;`9LnGVX`biH3
+R4
+Z195 w1713750869
+Z196 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32.v
+Z197 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32.v
+L0 1
+R8
+r1
+31
+Z198 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32.v|
+R10
+Z199 !s108 1735142310.698000
+Z200 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_mux32bit4ch
+Z201 !s100 k24kE<_<e0:Zo1zRz_0Kc1
+Z202 IN`l5I]QYT?7<eh^`>7SSI0
+Z203 V]ignjIgZnTE3>[Ge[bknc2
+R4
+Z204 w1713925572
+Z205 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32bit4ch.v
+Z206 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32bit4ch.v
+L0 1
+R8
+r1
+31
+Z207 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32bit4ch.v|
+R10
+Z208 !s108 1735142310.753000
+Z209 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_mux32bit4ch.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_nopInsert
+Z210 !s100 a59B3I;L?WO]XP1iCj>AF0
+Z211 I`CamD=8QGP^JMQPMjQi0O3
+Z212 VX=ea6P6SEZdShc^b:Ta;O1
+R4
+Z213 w1714586546
+Z214 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_nopInsert.v
+Z215 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_nopInsert.v
+L0 1
+R8
+r1
+31
+Z216 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_nopInsert.v|
+R10
+Z217 nrv32i_nop@insert
+Z218 !s108 1735142310.816000
+Z219 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_nopInsert.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_pcSel
+Z220 !s100 ;81zHa92;dnl?QkoSBF<M2
+Z221 IGnjMSLd<TCHY>DcFY;:VF0
+Z222 VnPR`;ziFZ:[QEg21=mNoX2
+R4
+Z223 w1733281068
+Z224 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_pcSel.v
+Z225 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_pcSel.v
+L0 1
+R8
+r1
+31
+Z226 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_pcSel.v|
+R10
+Z227 nrv32i_pc@sel
+Z228 !s108 1735142310.879000
+Z229 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_pcSel.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_ramSel
+Z230 !s100 <AlTSAB:?:h=Oh88=dUf;2
+Z231 IiXjDW6@z^7X_8`ObLNKA`0
+Z232 VXg@5;R[288WdKj2_]TQCl3
+R4
+Z233 w1733282192
+Z234 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramSel.v
+Z235 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramSel.v
+L0 3
+R8
+r1
+31
+Z236 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramSel.v|
+R10
+Z237 nrv32i_ram@sel
+Z238 !s108 1735142310.941000
+Z239 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramSel.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_ramWriteControl
+Z240 !s100 8AmUKa:4oDGL8BJ3g0FI[0
+Z241 I^Lo@]l`cP]d5IcmDAX>kJ0
+Z242 VDg@CeUR>d^ncM=iNc@i=W2
+R4
+Z243 w1733282293
+Z244 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramWriteControl.v
+Z245 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramWriteControl.v
+L0 3
+R8
+r1
+31
+Z246 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramWriteControl.v|
+R10
+Z247 nrv32i_ram@write@control
+Z248 !s108 1735142311.009000
+Z249 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_ramWriteControl.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_regFile
+Z250 !s100 36F[ZbPNl64hRHWR6]4zh1
+Z251 IaOiTJzR@S@8AzzO@im?8e2
+Z252 VU]eTgEM]CzlZo;[oXNV1c1
+R4
+Z253 w1713568606
+Z254 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_regFile.v
+Z255 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_regFile.v
+L0 1
+R8
+r1
+31
+Z256 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_regFile.v|
+R10
+Z257 nrv32i_reg@file
+Z258 !s108 1735142311.084000
+Z259 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_regFile.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrv32i_stall
+Z260 !s100 jdKPYA`Mc;gZof:3><G7W2
+Z261 IYJSh2oXLC10N35iU?<PaT3
+Z262 Vbnk9JU7fQd?34O^14:1ZA3
+R4
+Z263 w1713987748
+Z264 8D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_stall.v
+Z265 FD:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_stall.v
+L0 1
+R8
+r1
+31
+Z266 !s90 -reportprogress|300|-work|work|D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_stall.v|
+R10
+Z267 !s108 1735142311.163000
+Z268 !s107 D:/fpga_16bit_cpu_project/rv32i_modelsim/rv32i_stall.v|
+!i10b 1
+!s85 0
+!s101 -O0

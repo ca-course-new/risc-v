@@ -1,0 +1,1 @@
+module rv32i_forwarding(id_ex_rs1, id_ex_rs2, ex_mem_rd, mem_wb_rd, wb_buffer_rd);

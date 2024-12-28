@@ -1,0 +1,15 @@
+module led_driver(rst, clk, out);
+input rst, clk;
+output out;
+
+reg[25:0] count;
+
+assign out=count[25];
+
+always @(posedge rst, posedge clk)
+begin
+	if(rst) out<=26'b0;
+	else out<=out+1;
+end
+
+endmodule

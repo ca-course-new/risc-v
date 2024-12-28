@@ -1,0 +1,14 @@
+module rv32i_dff6bit(clk, rst, in, en, out);
+input clk, rst;
+input [5:0] in;
+input en;
+reg [5:0] out;
+output [5:0] out;
+
+always @(posedge rst, posedge clk)
+begin
+if(rst) out<=0;
+else out<=(en)?in:6'b0;
+end
+
+endmodule

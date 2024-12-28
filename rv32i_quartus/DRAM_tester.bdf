@@ -1,0 +1,149 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "graphic" (version "1.4"))
+(symbol
+	(rect 496 160 736 400)
+	(text "rv32i_mmu" (rect 5 0 78 15)(font "Arial" ))
+	(text "inst" (rect 8 224 31 239)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "mmu_en" (rect 0 0 59 15)(font "Arial" ))
+		(text "mmu_en" (rect 21 27 80 42)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "mmu_we" (rect 0 0 61 15)(font "Arial" ))
+		(text "mmu_we" (rect 21 43 82 58)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "mmu_addr[31..0]" (rect 0 0 110 15)(font "Arial" ))
+		(text "mmu_addr[31..0]" (rect 21 59 131 74)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "mmu_din[31..0]" (rect 0 0 101 15)(font "Arial" ))
+		(text "mmu_din[31..0]" (rect 21 75 122 90)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "rst" (rect 0 0 16 15)(font "Arial" ))
+		(text "rst" (rect 21 91 37 106)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "clk_in" (rect 0 0 37 15)(font "Arial" ))
+		(text "clk_in" (rect 21 107 58 122)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "mmu_dout[31..0]" (rect 0 0 109 15)(font "Arial" ))
+		(text "mmu_dout[31..0]" (rect 127 27 236 42)(font "Arial" ))
+		(line (pt 240 32)(pt 224 32)(line_width 3))
+	)
+	(port
+		(pt 240 48)
+		(output)
+		(text "addr[12..0]" (rect 0 0 68 15)(font "Arial" ))
+		(text "addr[12..0]" (rect 162 43 230 58)(font "Arial" ))
+		(line (pt 240 48)(pt 224 48)(line_width 3))
+	)
+	(port
+		(pt 240 64)
+		(output)
+		(text "bs[1..0]" (rect 0 0 47 15)(font "Arial" ))
+		(text "bs[1..0]" (rect 180 59 227 74)(font "Arial" ))
+		(line (pt 240 64)(pt 224 64)(line_width 3))
+	)
+	(port
+		(pt 240 96)
+		(output)
+		(text "cs_" (rect 0 0 23 15)(font "Arial" ))
+		(text "cs_" (rect 200 91 223 106)(font "Arial" ))
+		(line (pt 240 96)(pt 224 96))
+	)
+	(port
+		(pt 240 112)
+		(output)
+		(text "ras_" (rect 0 0 29 15)(font "Arial" ))
+		(text "ras_" (rect 195 107 224 122)(font "Arial" ))
+		(line (pt 240 112)(pt 224 112))
+	)
+	(port
+		(pt 240 128)
+		(output)
+		(text "cas_" (rect 0 0 31 15)(font "Arial" ))
+		(text "cas_" (rect 193 123 224 138)(font "Arial" ))
+		(line (pt 240 128)(pt 224 128))
+	)
+	(port
+		(pt 240 144)
+		(output)
+		(text "we_" (rect 0 0 27 15)(font "Arial" ))
+		(text "we_" (rect 197 139 224 154)(font "Arial" ))
+		(line (pt 240 144)(pt 224 144))
+	)
+	(port
+		(pt 240 160)
+		(output)
+		(text "ldqm" (rect 0 0 33 15)(font "Arial" ))
+		(text "ldqm" (rect 192 155 225 170)(font "Arial" ))
+		(line (pt 240 160)(pt 224 160))
+	)
+	(port
+		(pt 240 176)
+		(output)
+		(text "udqm" (rect 0 0 37 15)(font "Arial" ))
+		(text "udqm" (rect 188 171 225 186)(font "Arial" ))
+		(line (pt 240 176)(pt 224 176))
+	)
+	(port
+		(pt 240 192)
+		(output)
+		(text "cke" (rect 0 0 22 15)(font "Arial" ))
+		(text "cke" (rect 201 187 223 202)(font "Arial" ))
+		(line (pt 240 192)(pt 224 192))
+	)
+	(port
+		(pt 240 80)
+		(bidir)
+		(text "dq[15..0]" (rect 0 0 55 15)(font "Arial" ))
+		(text "dq[15..0]" (rect 186 75 241 90)(font "Arial" ))
+		(line (pt 240 80)(pt 224 80)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 224))
+	)
+)

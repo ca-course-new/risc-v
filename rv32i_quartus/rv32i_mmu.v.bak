@@ -1,0 +1,11 @@
+module rv32i_mmu(rst, clk_in, addr, bs, dq, cs_, ras_, cas_, we_, ldqm, udqm, clk_out, cke);
+input rst, clk_in;
+output reg[12:0] addr;
+output reg[1:0] bs;
+inout reg[15:0] dq;
+output reg cs_, ras_, cas_, we_, ldqm, udqm, clk_out, cke;
+
+
+
+
+endmodule
